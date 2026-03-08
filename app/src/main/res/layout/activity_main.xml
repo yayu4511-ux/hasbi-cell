@@ -1,0 +1,32 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:text="HASBI CELL PPOB"
+    android:textSize="22sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<EditText
+    android:id="@+id/nominal"
+    android:hint="Nominal Transfer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<EditText
+    android:id="@+id/admin"
+    android:hint="Biaya Admin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Button
+    android:id="@+id/printBtn"
+    android:text="Generate Struk"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
